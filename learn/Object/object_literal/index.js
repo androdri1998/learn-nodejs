@@ -15,11 +15,19 @@ const getBirthDate = ({ person }) => {
 }
 
 console.log(`Birth date person 1: ${getBirthDate({ person: 'person1'})}`);
+// Output:
+// Birth date person 1: 2001-04-03
 console.log(`Birth date person 3: ${getBirthDate({ person: 'person3'})}`);
+// Output:
+// Birth date person 3: 2000-06-22
 console.log(`Birth date person 5: ${getBirthDate({ person: 'person5'})}`);
+// Output:
+// Birth date person 5: 1997-08-05
 
 try {
     console.log(`Birth date person-non-existent: ${getBirthDate({ person: 'person-non-existent'})}`);
 } catch(error) {
     console.log(error.message);
 }
+// Output:
+// Birth date not found!

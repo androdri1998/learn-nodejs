@@ -49,5 +49,11 @@ const amountInVacations = arr
     }, 0);
 
 console.log(`age items are on vacations: ${ageOfWhoAreInVacations}`);
+// Output:
+// age items are on vacations: 61
 console.log(`age items aren't on vacations: ${ageOfWhoAreNotInVacations}`);
+// Output:
+// age items aren't on vacations: 43
 console.log(`amount age item on vacations: ${amountInVacations}`);
+// Output:
+// amount age item on vacations: 3

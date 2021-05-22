@@ -9,6 +9,14 @@ const getNumberFormated = ({ numberToFormat, locale = 'pt-BR', currency = 'BRL' 
 }
 
 console.log(getNumberFormated({ numberToFormat: number }));
+// Output:
+// R$ 1.000,00
 console.log(getNumberFormated({ numberToFormat: number, locale: 'ja-JP', currency: 'JPY' }));
+// Output:
+// ￥1,000
 console.log(getNumberFormated({ numberToFormat: number, locale: 'pt-BR', currency: 'EUR' }));
+// Output:
+// € 1.000,00
 console.log(getNumberFormated({ numberToFormat: number, locale: 'en-US', currency: 'USD' }));
+// Output:
+// $1,000.00
