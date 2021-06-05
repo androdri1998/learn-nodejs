@@ -1,1 +1,5 @@
 node_modules
+
+/learn/streams/big_file.txt
+/learn/streams/big_file.txt.gz
+.DS_Store
